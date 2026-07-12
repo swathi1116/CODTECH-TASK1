@@ -1,0 +1,24 @@
+# CODTECH AI Internship
+# Task 1: Text Summarization Tool
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.lsa import LsaSummarizer
+# Input article
+text = """
+Artificial Intelligence (AI) is transforming industries around the world.
+It is used in healthcare, education, finance, and transportation.
+AI helps automate repetitive tasks, improves decision-making, and increases efficiency.
+Machine learning, a subset of AI, enables systems to learn from data and improve over time.
+As technology advances, AI continues to create new opportunities and challenges.
+"""
+# Parse text
+parser = PlaintextParser.from_string(text, Tokenizer("english"))
+# Create summarizer
+summarizer = LsaSummarizer()
+# Generate summary (2 sentences)
+summary = summarizer(parser.document, 2)
+print("Original Text:\n")
+print(text)
+print("\nSummary:\n")
+for sentence in summary:
+    print(sentence)
