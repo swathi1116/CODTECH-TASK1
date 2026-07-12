@@ -31,4 +31,4 @@ The primary library used in this project was **Sumy**. I implemented the **LSA (
 The application accepts a paragraph as input, processes the text, and generates a concise summary. Finally, it displays both the original text and the summarized text in the terminal.
 
 This project improved my understanding of Natural Language Processing, Python programming, and AI-based text analysis. It also enhanced my confidence in building practical AI applications using NLP libraries.
-<img width="804" height="268" alt="OUTPUT" src="https://github.com/user-attachments/assets/1ac10e92-294d-4a0a-8a2d-516b19600624" /><img width="804" height="268" alt="OUTPUT" src="https://github.com/user-attachments/assets/ee8ad397-4a74-40dd-a894-48128fdfec33" />
+<img width="804" height="268" alt="OUTPUT" src="https://github.com/user-attachments/assets/1ac10e92-294d-4a0a-8a2d-516b19600624" />
